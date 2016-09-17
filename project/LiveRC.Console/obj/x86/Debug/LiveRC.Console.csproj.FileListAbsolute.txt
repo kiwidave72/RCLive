@@ -1,0 +1,14 @@
+C:\Users\Dave\Documents\Git Work\LapScore\project\LiveRC.Console\bin\Debug\LiveRC.Console.exe
+C:\Users\Dave\Documents\Git Work\LapScore\project\LiveRC.Console\bin\Debug\LiveRC.Console.pdb
+C:\Users\Dave\Documents\Git Work\LapScore\project\LiveRC.Console\obj\x86\Debug\LiveRC.Console.exe
+C:\Users\Dave\Documents\Git Work\LapScore\project\LiveRC.Console\obj\x86\Debug\LiveRC.Console.pdb
+C:\Users\Dave\Documents\Git Work\LapScore\project\LiveRC.Console\obj\x86\Debug\LiveRC.Console.csprojResolveAssemblyReference.cache
+C:\Users\Dave\Documents\Git Work\LapScore\project\LiveRC.Console\bin\Debug\websocket-sharp.dll
+C:\Users\Dave\Documents\Git Work\LapScore\project\LiveRC.Console\bin\Debug\websocket-sharp.xml
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Console\bin\Debug\LiveRC.Console.exe
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Console\bin\Debug\LiveRC.Console.pdb
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Console\obj\x86\Debug\LiveRC.Console.exe
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Console\obj\x86\Debug\LiveRC.Console.pdb
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Console\bin\Debug\LiveRC.Common.dll
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Console\bin\Debug\LiveRC.Common.pdb
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Console\obj\x86\Debug\LiveRC.Console.csprojResolveAssemblyReference.cache

@@ -1,0 +1,17 @@
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\bin\Debug\LiveRCViewer.exe
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\bin\Debug\LiveRCViewer.pdb
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\bin\Debug\websocket-sharp.dll
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\bin\Debug\websocket-sharp.xml
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\obj\x86\Debug\MainWindow.baml
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\obj\x86\Debug\App.g.cs
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\obj\x86\Debug\LiveRCViewer_MarkupCompile.cache
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\obj\x86\Debug\LiveRCViewer.g.resources
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\obj\x86\Debug\LiveRCViewer.Properties.Resources.resources
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\obj\x86\Debug\LiveRCViewer.csproj.GenerateResource.Cache
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\obj\x86\Debug\LiveRCViewer.exe
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\obj\x86\Debug\LiveRCViewer.pdb
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\obj\x86\Debug\LiveRCViewer_MarkupCompile.lref
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\obj\x86\Debug\LiveRCViewer.csprojResolveAssemblyReference.cache
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\bin\Debug\LiveRC.Common.dll
+C:\Users\Dave\Documents\Git Work\RCLive\project\RCLiveViewer\bin\Debug\LiveRC.Common.pdb

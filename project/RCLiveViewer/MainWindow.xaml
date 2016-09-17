@@ -1,0 +1,106 @@
+﻿<Window x:Class="LiveRCViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded"
+        xmlns:c="clr-namespace:LiveRCViewer"
+        FontSize="16" WindowStyle="None" AllowsTransparency="True" Background="Transparent" WindowState="Maximized"
+        >
+
+    <Grid Background="Transparent" >
+<Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"  />
+            <ColumnDefinition Width="100*" MaxWidth="245"  />
+            <ColumnDefinition Width="100*" MaxWidth="245"  />
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions >
+            <RowDefinition Height="220"/>
+            <RowDefinition MinHeight="60" MaxHeight="78"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="68"/>
+            <RowDefinition Height="75"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Column="1" Grid.Row="1" BorderBrush="#204a8e" CornerRadius="2,2,2,2" BorderThickness="2,2,2,2">
+            <StackPanel  Orientation="Vertical"  Width="300">
+                <TextBlock Foreground="White" Background="#204a8e"  Text="{Binding RaceTitle}"></TextBlock>
+                <StackPanel Orientation="Horizontal" Background="#204a8e" MinWidth="200" >
+                    <Label Foreground="White" Background="Transparent" >Race:</Label>
+                    <Label Foreground="White" Background="Transparent" Content="{Binding RaceNumber}"></Label >
+                    <!--<Label Foreground="White" Background="Transparent" >Round:</Label>-->
+                    <!--<Label Foreground="White" Background="Transparent" Content="{Binding RoundNumber}"></Label >-->
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock MinWidth="150" Foreground="White" Background="#204a8e" Text="{Binding Status}"></TextBlock>
+                    <!--<TextBlock MinWidth="100" Name="myClock" Foreground="white" Background="Red" Text="{Binding ElapsedTime}"></TextBlock>-->
+                    <TextBlock MinWidth="150" Name="myRaceTime" Foreground="white" Background="#204a8e" Text="{Binding RaceTime}"></TextBlock>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <ListBox Grid.Column="1" Grid.Row="2"  Name="mylist" Background="Transparent" BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Hidden"  >
+
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Margin="0,2">
+                             <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"  />
+                            <ColumnDefinition Width="3"  />
+                            <ColumnDefinition Width="20"  />
+                            <ColumnDefinition Width="3"  />
+                            <ColumnDefinition Width="100" />
+                            <ColumnDefinition Width="3"  />
+                            <ColumnDefinition Width="50"  />
+                            <ColumnDefinition Width="3" />
+                            <ColumnDefinition Width="50"  />
+                            <ColumnDefinition Width="10"  />
+
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="{Binding Position}" Foreground="White" Background="Green"    />
+                                <TextBlock Grid.Column="2" Text="{Binding Number}" Foreground="White" Background="Black"   />
+                                <TextBlock Grid.Column="4" Text="{Binding Name}" Foreground="White" Background="black"   />
+                                <TextBlock Grid.Column="6" Text="{Binding Difference}" Foreground="White" Background="Black"   />
+                        <TextBlock Grid.Column="8" Text="{Binding Fastest}" Foreground="White" Background="black"   />
+                        <!--        <TextBlock Grid.Column="8" Text="{Binding Laps}" Foreground="White" Background="black"   />
+                                <TextBlock Grid.Column="9" Text="{Binding Time}" Foreground="White" Background="black"   />-->
+                        <!--<TextBlock Grid.Column="10" Text="{Binding Average}" Foreground="White" Background="black"   />-->
+                    </Grid>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+        <!--<Border Grid.Column="1" Grid.Row="3"   BorderBrush="#204a8e" CornerRadius="2,2,2,2" BorderThickness="2,2,2,2">
+            <StackPanel Name="fastestLap" Grid.Column="1" Grid.Row="3" >
+                <TextBlock Text="{Binding FastestLapDriverName}" Background="#204a8e" Foreground="White"></TextBlock>
+                <TextBlock Text="{Binding FastestLapOnLap}" Background="#204a8e" Foreground="White"></TextBlock>
+                <TextBlock Text="{Binding FastestLapTime}" Background="#204a8e" Foreground="White"></TextBlock>
+            </StackPanel>
+        </Border>-->
+        <!--<ProgressBar Name="progress" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="3" Width="1200" Height="5" Value="{Binding ElapsedTime}" Maximum="{Binding Length}" Minimum="0" >
+            <ProgressBar.Style>
+
+                <Style TargetType="{x:Type ProgressBar}" >
+                    <Setter Property="Foreground" Value="#204a8e">
+                     </Setter>
+                    <Setter Property="Background" Value="White">
+                     </Setter>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate>
+                                <Grid Margin="1">
+                                    <Rectangle x:Name="opacityMask" RadiusX="4" RadiusY="4" Fill="{TemplateBinding Background}" Margin="0"/>
+                                    <Grid Margin="-1">
+                                        <Grid.OpacityMask>
+                                            <VisualBrush Visual="{Binding ElementName=opacityMask}"/>
+                                        </Grid.OpacityMask>
+                                        <Rectangle x:Name="PART_Track" RadiusX="{Binding ElementName=opacityMask, Path=RadiusX}" RadiusY="{Binding ElementName=opacityMask, Path=RadiusY}" Stroke="{TemplateBinding BorderBrush}" StrokeThickness="1" Fill="{TemplateBinding Background}"/>
+                                        <Rectangle x:Name="PART_Indicator" RadiusX="{Binding ElementName=opacityMask, Path=RadiusX}" RadiusY="{Binding ElementName=opacityMask, Path=RadiusY}" Stroke="{TemplateBinding BorderBrush}" StrokeThickness="1" HorizontalAlignment="Left" Fill="{TemplateBinding Foreground}" />
+                                    </Grid>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ProgressBar.Style>
+        </ProgressBar>-->
+    </Grid>
+</Window>

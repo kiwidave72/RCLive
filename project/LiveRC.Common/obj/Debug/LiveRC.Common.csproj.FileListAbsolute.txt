@@ -1,0 +1,7 @@
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Common\bin\Debug\LiveRC.Common.dll
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Common\bin\Debug\LiveRC.Common.pdb
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Common\bin\Debug\websocket-sharp.dll
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Common\bin\Debug\websocket-sharp.xml
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Common\obj\Debug\LiveRC.Common.dll
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Common\obj\Debug\LiveRC.Common.pdb
+C:\Users\Dave\Documents\Git Work\RCLive\project\LiveRC.Common\obj\Debug\LiveRC.Common.csprojResolveAssemblyReference.cache
